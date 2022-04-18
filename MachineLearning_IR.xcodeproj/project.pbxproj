@@ -14,6 +14,8 @@
 		379374BC280DB72200FEC15D /* MachineLearning_IR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 379374BA280DB72200FEC15D /* MachineLearning_IR.xcdatamodeld */; };
 		379374BE280DB72800FEC15D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379374BD280DB72800FEC15D /* Assets.xcassets */; };
 		379374C1280DB72800FEC15D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379374BF280DB72800FEC15D /* LaunchScreen.storyboard */; };
+		379374C9280DBA2300FEC15D /* ImageRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379374C8280DBA2300FEC15D /* ImageRecognitionViewController.swift */; };
+		37ACBDE2280DC8D400E824C8 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 37ACBDE1280DC8D400E824C8 /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		379374BD280DB72800FEC15D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		379374C0280DB72800FEC15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		379374C2280DB72800FEC15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379374C8280DBA2300FEC15D /* ImageRecognitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRecognitionViewController.swift; sourceTree = "<group>"; };
+		37ACBDE1280DC8D400E824C8 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		379374B0280DB72200FEC15D /* MachineLearning_IR */ = {
 			isa = PBXGroup;
 			children = (
+				37ACBDE1280DC8D400E824C8 /* MobileNetV2.mlmodel */,
 				379374B1280DB72200FEC15D /* AppDelegate.swift */,
 				379374B3280DB72200FEC15D /* SceneDelegate.swift */,
 				379374B5280DB72200FEC15D /* ViewController.swift */,
@@ -66,6 +71,7 @@
 				379374BF280DB72800FEC15D /* LaunchScreen.storyboard */,
 				379374C2280DB72800FEC15D /* Info.plist */,
 				379374BA280DB72200FEC15D /* MachineLearning_IR.xcdatamodeld */,
+				379374C8280DBA2300FEC15D /* ImageRecognitionViewController.swift */,
 			);
 			path = MachineLearning_IR;
 			sourceTree = "<group>";
@@ -141,9 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37ACBDE2280DC8D400E824C8 /* MobileNetV2.mlmodel in Sources */,
 				379374B6280DB72200FEC15D /* ViewController.swift in Sources */,
 				379374B2280DB72200FEC15D /* AppDelegate.swift in Sources */,
 				379374BC280DB72200FEC15D /* MachineLearning_IR.xcdatamodeld in Sources */,
+				379374C9280DBA2300FEC15D /* ImageRecognitionViewController.swift in Sources */,
 				379374B4280DB72200FEC15D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
