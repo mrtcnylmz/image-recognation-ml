@@ -1,4 +1,4 @@
 # machine-learning-IR
-Image Recognition app on Swift using light-weight MobileNetV2 ML model.
+Image Recognition app on Swift using light SqueezeNet, MobileNetV2 and heavy Resnet50 ML models.
 
-![machinelearning](https://user-images.githubusercontent.com/49480936/163874899-a453b3e2-33ed-47de-975c-c9a60a5372ef.gif)
+![ML Image Recognition](https://user-images.githubusercontent.com/49480936/164760495-412099ea-aae5-4ea3-b26f-36267d4474bc.gif)
