@@ -145,7 +145,7 @@ class ImageRecognitionViewController: UIViewController, UIImagePickerControllerD
         let request = VNClassifyImageRequest()
         try? handler.perform([request])
         let results = request.results
-        recResults.append([results![0].identifier, Int(results![0].confidence*100), "Vision",results!])
+        recResults.append([results![0].identifier, Int(results![0].confidence*100), "Apple Vision",results!])
         resultsTableView.reloadData()
     }
     
