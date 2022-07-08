@@ -139,8 +139,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="eyeglasses" catalog="system" width="128" height="54"/>
-        <image name="questionmark.app.dashed" catalog="system" width="128" height="114"/>
+        <image name="eyeglasses" catalog="system" width="32" height="32"/>
+        <image name="questionmark.app.dashed" catalog="system" width="32" height="32"/>
         <systemColor name="placeholderTextColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
